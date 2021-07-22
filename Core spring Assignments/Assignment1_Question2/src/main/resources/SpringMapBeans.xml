@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <beans>
+        <bean id="myquestion" class="Spring.Question">
+            <property name="questionId" value="001"></property>
+            <property name="question" value="States in india?"></property>
+            <property name="answers">
+                <map>
+                    <entry key="1" value="Tamilnadu"/>
+                    <entry key="2" value="Kerala"/>
+                    <entry key="3" value="Andhra"/>
+                    <entry key="4" value="Karnataka"/>
+                </map>
+            </property>
+        </bean>
+    </beans>
+</beans>
